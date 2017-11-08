@@ -1,4 +1,4 @@
-/**
+package za.ac.cput.elecdevs.joselle; /**
  * @(#)MainEmpCls.java
  *
  *
@@ -18,7 +18,7 @@ public class MainEmpCls {
        String ext;
        int yearStarted;
 
-      myEmpCls.setEmpDetails("Joselle","x500",2016);
+      myEmpCls.setEmployerDetails("Joselle","x500",2016);
 
       System.out.println(" Name:"+name);
       System.out.println(" Ext:" +ext);

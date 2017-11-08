@@ -1,3 +1,5 @@
+package za.ac.cput.elecdevs.audrey;
+
 public class Dog {
 
     private String type;
@@ -25,7 +27,7 @@ public class Dog {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Dog dog = (dog) o;
+        Dog dog = (Dog) o;
 
         return age == dog.age;
     }

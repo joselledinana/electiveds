@@ -1,3 +1,7 @@
+package za.ac.cput.elecdevs.audrey;
+
+import za.ac.cput.elecdevs.audrey.Dog;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;

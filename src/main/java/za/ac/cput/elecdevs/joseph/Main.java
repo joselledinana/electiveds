@@ -1,8 +1,8 @@
+package za.ac.cput.elecdevs.joseph;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import za.ac.cput.elecdevs.joseph.Person;
+
+import java.util.*;
 
 
 /**

@@ -1,3 +1,5 @@
+package za.ac.cput.elecdevs.joselle;
+
 /**
  * @(#)EmpCls.java
  *

@@ -1,3 +1,4 @@
+package za.ac.cput.elecdevs.qaphela;
 
 /**
 ** @author 216021987
@@ -16,7 +17,7 @@ public class Bicycle {
         return type;
     }
     public int getGear(){
-        return age;
+        return gear;
     }
     public void setType(String type){
         this.type=type;
@@ -29,7 +30,7 @@ public class Bicycle {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Bicycle bike = (bike) o;
+        Bicycle bike = (Bicycle) o;
 
         return bike == bicycle.bike;
     }
