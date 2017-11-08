@@ -1,21 +1,41 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package bicycle;
 
 /**
- *
- * @author 216021987
- */
+** @author 216021987
+*/
 public class Bicycle {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    private String type;
+    private int gear;
     
+    public Bicycle(String type, int gear)
+    {
+        this.gear=gear;
+        this.type=type;
+    }
+    public String getType(){
+        return type;
+    }
+    public int getGear(){
+        return age;
+    }
+    public void setType(String type){
+        this.type=type;
+    }
+    public void setGear(int gear){
+        this.gear=gear;
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Bicycle bike = (bike) o;
+
+        return bike == bicycle.bike;
+    }
+
+    @Override
+    public int hashCode() {
+        return gear;
+    }
 }
