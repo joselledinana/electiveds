@@ -24,9 +24,16 @@ public class RunPerson {
         Person person785 = new Person ("Aristide", 17);
         Person person456 = new Person ("Henriette", 12);
 
+        System.out.println("Name: "+person364.getName()+" \t\tAge: "+person364.getAge());
         personList.add(person364);
+
+        System.out.println("Name: "+person789.getName()+"\t\tAge: "+person789.getAge());
         personAr.add(person789);
+
+        System.out.println("Name: "+person785.getName()+"\t\tAge: "+person785.getAge());
         personHs.add(person785);
+
+        System.out.println("Name: "+person456.getName()+"\t\tAge: "+person456.getAge());
         personHs.add(person456);
     }
 
