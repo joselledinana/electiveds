@@ -1,38 +1,46 @@
 package za.ac.cput.elecdevs;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
+public class Person {
+
+public class Person {
+
+    private String name;
+    private int age;
+
+    public Person(String name, int age)
     {
-        super( testName );
+    	this.name=name;
+        this.age=age;
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    public void setName(String name){
+        this.name=name;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setAge(int age){
+        this.age=age;
+    }
+    public int getAge(){
+        return age;
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+
+
+    public boolean equals(Object e) {
+        if (this == e) return true;
+        if (e == null || getClass() != o.getClass()) return false;
+
+        Person per = (Person) o;
+
+        return age == per.age;
     }
+
+
+    public int hashCode() {
+        return age;
+    }
+
 }
